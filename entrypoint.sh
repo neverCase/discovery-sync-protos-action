@@ -49,9 +49,9 @@ cp $INPUT_SOURCE_FOLDER/helix2/v1/generated.proto $CLONE_DIR/$INPUT_DESTINATION_
 sed -i 's/Shanghai-Lunara/nevercase/g' $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.helix2.v1.proto
 sed -i 's/Shanghai_Lunara/nevercase/g' $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.helix2.v1.proto
 
-#cp $INPUT_SOURCE_FOLDER/apps/v1/generated.proto $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.hamster.v1.proto
-#sed -i 's/Shanghai-Lunara/nevercase/g' $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.hamster.v1.proto
-#sed -i 's/Shanghai_Lunara/nevercase/g' $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.hamster.v1.proto
+cp $INPUT_SOURCE_FOLDER/apps/v1/generated.proto $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.hamster.v1.proto
+sed -i 's/Shanghai-Lunara/nevercase/g' $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.hamster.v1.proto
+sed -i 's/Shanghai_Lunara/nevercase/g' $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.hamster.v1.proto
 cd "$CLONE_DIR"
 
 echo "Adding git commit"
