@@ -37,9 +37,9 @@ echo "Copying contents to git repo"
 #rm -rf $CLONE_DIR/$INPUT_DESTINATION_FOLDER/
 #mkdir -p $CLONE_DIR/$INPUT_DESTINATION_FOLDER/
 #cp -a $INPUT_SOURCE_FOLDER/. $CLONE_DIR/$INPUT_DESTINATION_FOLDER/
-cp $INPUT_SOURCE_FOLDER/internal/proto/gameproto/generated.proto $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.Shanghai_Lunara.helix2_server.internal.proto.gameproto.proto
+cp $INPUT_SOURCE_FOLDER/gameproto/generated.proto $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.Shanghai_Lunara.helix2_server.internal.proto.gameproto.proto
 
-cp $INPUT_SOURCE_FOLDER/internal/proto/gmtproto/generated.proto $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.Shanghai_Lunara.helix2_server.internal.proto.gmtproto.proto
+cp $INPUT_SOURCE_FOLDER/gmtproto/generated.proto $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.Shanghai_Lunara.helix2_server.internal.proto.gmtproto.proto
 
 
 cd "$CLONE_DIR"
