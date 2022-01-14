@@ -41,9 +41,9 @@ cp $INPUT_SOURCE_FOLDER/apps/v1/generated.proto $CLONE_DIR/$INPUT_DESTINATION_FO
 sed -i 's/Shanghai-Lunara/nevercase/g' $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.apps.v1.proto
 sed -i 's/Shanghai_Lunara/nevercase/g' $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.apps.v1.proto
 
-cp $INPUT_SOURCE_FOLDER/core/v1/generated.proto $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.core.v1.proto
-sed -i 's/Shanghai-Lunara/nevercase/g' $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.core.v1.proto
-sed -i 's/Shanghai_Lunara/nevercase/g' $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.core.v1.proto
+cp $INPUT_SOURCE_FOLDER/storage/v1/generated.proto $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.storage.v1.proto
+sed -i 's/Shanghai-Lunara/nevercase/g' $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.storage.v1.proto
+sed -i 's/Shanghai_Lunara/nevercase/g' $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.storage.v1.proto
 
 cp $INPUT_SOURCE_FOLDER/helix2/v1/generated.proto $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.helix2.v1.proto
 sed -i 's/Shanghai-Lunara/nevercase/g' $CLONE_DIR/$INPUT_DESTINATION_FOLDER/github.com.nevercase.discovery.pkg.apis.helix2.v1.proto
